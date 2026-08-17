@@ -1,0 +1,4 @@
+# DSH 会话导出（dsh-session-export）bundle patch：作为 profile 的一层 patch，插入本插件的加载行。
+- insert:
+    - id: session-export
+      name: 'dsh-session-export'
